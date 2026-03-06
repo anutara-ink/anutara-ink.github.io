@@ -1,0 +1,67 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+@import "main";
+
+/* Force light mode only */
+html[data-mode="dark"],
+html:not([data-mode]) {
+  --mode: light;
+}
+
+/* Warm color palette */
+:root {
+  --body-bg:          #ede8dc;
+  --card-bg:          #f2ede3;
+  --sidebar-bg:       #2c1f14;
+  --sidebar-color:    #e8d9c5;
+  --text-color:       #3a2e22;
+  --heading-color:    #2c1f14;
+  --link-color:       #8b5e3c;
+  --link-hover:       #5c3d1e;
+  --border-color:     #d9cfc4;
+  --blockquote-border:#c4a882;
+  --code-bg:          #ede8e0;
+
+  /* Typography */
+  --font-family-base:    'Lora', Georgia, serif;
+  --font-family-heading: 'Playfair Display', Georgia, serif;
+  --font-size-base:      1.05rem;
+  --line-height-base:    1.85;
+}
+
+/* Sidebar */
+#sidebar {
+  background-color: var(--sidebar-bg);
+  color: var(--sidebar-color);
+}
+
+#sidebar a {
+  color: #c4a882;
+}
+
+#sidebar a:hover {
+  color: #f7f3ee;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: var(--font-family-heading);
+  color: var(--heading-color);
+}
+
+/* Post content */
+.post-content {
+  font-family: var(--font-family-base);
+  line-height: var(--line-height-base);
+  color: var(--text-color);
+}
+
+/* Blockquote */
+blockquote {
+  border-left: 3px solid var(--blockquote-border);
+  color: #6b5744;
+  font-style: italic;
+}
