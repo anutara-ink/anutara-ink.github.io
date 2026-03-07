@@ -27,6 +27,8 @@ html:not([data-mode]) {
 
 /* Warm color palette */
 :root {
+  --font-family-base:    'Niramit', 'Playfair Display', serif;
+  --font-family-heading: 'Playfair Display', 'Niramit', serif;
   --body-bg:          #ede8dc;
   --card-bg:          #f2ede3;
   --sidebar-bg:       #2c1f14;
@@ -40,10 +42,19 @@ html:not([data-mode]) {
   --code-bg:          #ede8e0;
 
   /* Typography */
-  --font-family-base:    'Lora', Georgia, serif;
-  --font-family-heading: 'Playfair Display', Georgia, serif;
+  --font-family-base:    'Niramit', 'Playfair Display', serif;
+  --font-family-heading: 'Playfair Display', 'Niramit', serif;
   --font-size-base:      1.05rem;
   --line-height-base:    1.85;
+}
+
+/* English characters slightly larger */
+:lang(en), p, li, blockquote {
+  font-size-adjust: 0.5;
+}
+
+p:not(:lang(th)) {
+  font-size: calc(var(--font-size-base) + 2pt);
 }
 
 /* Sidebar */
