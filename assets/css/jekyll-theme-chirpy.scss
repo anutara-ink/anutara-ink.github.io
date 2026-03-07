@@ -79,3 +79,20 @@ blockquote {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+/* Sidebar font */
+#sidebar,
+#sidebar .site-title,
+#sidebar .site-subtitle,
+#sidebar nav,
+#sidebar a {
+  font-family: 'Niramit', serif !important;
+}
+
+/* Top navbar - match body background */
+#topbar-wrapper,
+.topbar {
+  background-color: #ede8dc !important;
+  border-bottom: 1px solid #d9cfc4 !important;
+  box-shadow: none !important;
+}
