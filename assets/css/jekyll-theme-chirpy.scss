@@ -32,6 +32,19 @@ html:not([data-mode]) {
   --line-height-base:    1.85;
 }
 
+/* Page margin */
+.container,
+#main-wrapper {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.post-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
 /* Sidebar */
 #sidebar {
   background-color: var(--sidebar-bg);
