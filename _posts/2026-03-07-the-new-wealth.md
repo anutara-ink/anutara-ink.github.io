@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "The New Wealth — ความมั่งคั่งในมิติใหม่"
+title: "The New Wealth — ความมั่งคั่งในมิติใหม่ (Thai)"
 date: 2026-03-07
+categories: [Articles]
+tags: [Wealth, Economics, Health,Thai]
 ---
 
 # The New Wealth
