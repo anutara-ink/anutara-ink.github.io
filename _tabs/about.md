@@ -1,15 +1,13 @@
 ---
 # the default layout is 'page'
+layout: page
 icon: fas fa-info-circle
 order: 4
----
-
-layout: page
 title: "About Anutara Tantraporn"
 date: 2026-03-08
 categories: [About]
 tags: [About]
-
+---
 
 # Anutara Tantraporn
 
