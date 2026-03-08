@@ -5,10 +5,6 @@ date: 2026-03-08
 categories: [Article]
 tags: [Wealth, Economics, Health,English]
 ---
-
-# The New Wealth
-**Anutara Tantraporn**
-
 *Rethinking what it means to be wealthy — in a world that has already changed*
 
 ---
