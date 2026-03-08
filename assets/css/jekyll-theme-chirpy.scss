@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { 
   font-family: 'Playfair Display', 'Sarabun', Georgia, serif !important;
   font-size: 2rem !important; 
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   letter-spacing: -0.02em;
 }
 h2 { font-size: 1.55rem !important; margin-top: 2.5rem !important; }
@@ -142,7 +142,7 @@ blockquote {
   .site-title {
     color: var(--claude-text) !important;
     font-family: 'Playfair Display', 'Sarabun', serif !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
   }
 
   .site-subtitle {
@@ -195,7 +195,7 @@ blockquote {
 .post-preview .post-title,
 #post-list .card-title {
   font-family: 'Playfair Display', 'Sarabun', Georgia, serif !important;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   letter-spacing: -0.02em;
 }
 
