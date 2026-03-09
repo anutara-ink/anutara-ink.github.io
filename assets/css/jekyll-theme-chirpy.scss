@@ -147,22 +147,46 @@ blockquote {
   }
 }
 
-/* Align title, meta, breadcrumb with post content */
-.post .post-meta,
-.post h1,
-#breadcrumb,
-#search-wrapper {
-  padding-left: 1.75rem;
+/* ---- Align everything inside article ---- */
+
+/* article.px-1 is the container — let it control padding */
+article.px-1 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
-/* Match post-content alignment */
-.post .post-content {
-  > blockquote,
-  > h2, > h3, > h4, > h5, > h6,
-  > p, > ul, > ol, > table, > figure,
-  > hr, > div {
-    padding-left: 0;
-  }
+/* Reset: no extra padding on header or content */
+article > header,
+article > .content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+article > header > h1[data-toc-skip] {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+article > header > .post-meta {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+article > .content > * {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Keep blockquote its own left padding for the accent border */
+article > .content > blockquote {
+  padding-left: 1.25rem !important;
+}
+
+/* Breadcrumb */
+#breadcrumb {
+  padding-left: 0;
 }
 
 @media (max-width: 576px) {
