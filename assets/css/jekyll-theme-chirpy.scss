@@ -147,6 +147,24 @@ blockquote {
   }
 }
 
+/* Align title, meta, breadcrumb with post content */
+.post .post-meta,
+.post h1,
+#breadcrumb,
+#search-wrapper {
+  padding-left: 1.75rem;
+}
+
+/* Match post-content alignment */
+.post .post-content {
+  > blockquote,
+  > h2, > h3, > h4, > h5, > h6,
+  > p, > ul, > ol, > table, > figure,
+  > hr, > div {
+    padding-left: 0;
+  }
+}
+
 @media (max-width: 576px) {
   #core-wrapper {
     padding-left: 1.2rem !important;
