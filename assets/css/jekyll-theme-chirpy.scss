@@ -122,12 +122,16 @@ blockquote {
 }
 
 #core-wrapper {
+  max-width: 820px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
 }
 
 .content {
   max-width: 720px;
+  margin: 0 auto;
 
   .post-content {
     p {
@@ -136,18 +140,10 @@ blockquote {
   }
 }
 
-/* Post page specific */
+/* Post page */
 .post {
-  h1.dynamic-title,
-  .post-content {
-    padding-left: 0.5rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  #core-wrapper {
-    padding-left: 3rem !important;
-    padding-right: 2rem !important;
+  h1.dynamic-title {
+    margin-bottom: 1rem;
   }
 }
 
