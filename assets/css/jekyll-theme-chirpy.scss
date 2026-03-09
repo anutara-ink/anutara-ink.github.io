@@ -87,7 +87,7 @@ h3 { font-size: 1.25rem !important; }
 p, li, td {
   font-family: 'Lora', 'Sarabun', Georgia, serif !important;
   color: var(--claude-text) !important;
-  line-height: 1.6 !important;
+  line-height: 1.85 !important;
   font-size: 1.05rem;
 }
 
@@ -121,6 +121,11 @@ blockquote {
   background-color: var(--claude-bg) !important;
 }
 
+#core-wrapper {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
 .content {
   max-width: 720px;
 
@@ -128,6 +133,28 @@ blockquote {
     p {
       margin-bottom: 1.35rem;
     }
+  }
+}
+
+/* Post page specific */
+.post {
+  h1.dynamic-title,
+  .post-content {
+    padding-left: 0.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #core-wrapper {
+    padding-left: 3rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #core-wrapper {
+    padding-left: 1.2rem !important;
+    padding-right: 1.2rem !important;
   }
 }
 
